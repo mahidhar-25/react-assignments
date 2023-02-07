@@ -1,0 +1,47 @@
+.expense_item{
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-size: medium;
+    align-items: center;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+    margin: 15px;
+}
+
+.expense_title{
+    flex-grow: 0.9;
+    font-size: 32px;
+}
+
+.expense_money{
+        padding: 20px;
+        border: 1px solid aqua;
+        border-radius: 5px;
+        color: aqua;
+}
+
+
+@media screen and (max-width: 480px) {
+.expense_item {
+        background-color: rgb(41, 39, 39);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: medium;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .expense_title{
+        margin-bottom: 2vh;
+    }
+}
