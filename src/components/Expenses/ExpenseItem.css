@@ -1,6 +1,6 @@
 .expense_item{
     background-color: rgb(41, 39, 39);
-    border-radius: 10px;
+   
     display:flex;
     flex-direction: row;
     /* justify-content: space-between; */
