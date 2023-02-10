@@ -26,7 +26,7 @@ const [expenses , setExpenses] = useState([
   ])
   const AddExpenseData = (expenseItem) => {
       setExpenses((prevExpenses)=>{
-        return([...prevExpenses , expenseItem]);
+        return [expenseItem, ...prevExpenses];
       });
       console.log(expenses);
   };
